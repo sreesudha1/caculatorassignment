@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script type ="text/javascript">
+        function simpleinterest ()
+        {
+            a = eval(amt.value)
+            b = eval(rat.value)
+            c = eval(yea.value)
+            sim.value = (a*b/100)*c
+            api.value = a+eval(sim.value)
+        }
+        </script>
+    </head>
+    <body backgroundcolor=green topmargin=0 leftmargin=0 text=black>
+        <h1>FIND SIMPLE INTEREST</h1>
+        <table backgroundcolor=pink border=5 align=center>
+
+            <tr>
+                <td> Amount>
+                    <td> <input type=text id=amt></td>
+            </tr>
+            <tr>
+                <td> rate of interest>
+                    <td> <input type=text id=rat></td>
+            </tr>
+            <tr>
+                <td> no.of years>
+                    <td> <input type=text id=yea></td>
+            </tr>
+            <tr>
+                <td> simple interest>
+                    <td> <input type=text id=sim></td>
+            </tr>
+            <tr>
+                <td> Amount interest>
+                    <td> <input type=text id=api></td>
+            </tr>
+            <tr>
+                <td> <input type=button value="click" onclick=simpleinterest()></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

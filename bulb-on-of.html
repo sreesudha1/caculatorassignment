@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bulb on off concept
+        </title>
+        <body>
+            <div class = "Bulb">
+                <img src="of.jpg" height="300" width="300" id="img"> <br><br>
+                <input type="button" value = "ON" onclick="bulb_on()" class="btn btn-sucess">
+                <input type="button" value = "OFF" onclick="bulb_off()" class="btn btn-primary">
+            </div>
+            
+            <script type="text/javascript">
+
+            function bulb_on () {
+                var on = document.getElementById("img");
+                on.src = "on.jpg"
+            }
+
+            function bulb_off () {
+                var off = document.getElementById("img")
+                off.src = "off.jpg"
+            }
+            </script>
+        </body>
+    </head>
+</html>
